@@ -1,0 +1,125 @@
+/* Navbar */
+.navbar-brand {
+  color: #00E5FF;
+}
+/* jumbotron section */
+.jumbotron {
+  background-image: url(../img/bg-1.jpg);
+  height: 100%;
+  background-size: cover;
+  color: #616161;
+  border-radius: 0;
+}
+.main-word {
+  background-color: #F5F5F5;
+  margin-bottom: 0;
+  padding-top: -1;
+
+}
+
+.nav-item {
+  line-height: 50px;
+}
+
+.bt-get-start {
+  border-radius: 200px;
+  background-color: #0091ea;
+  color: white;
+}
+/* Coner Ribbon */
+.ribbon {
+  position: absolute;
+  left: -5px; top: -5px;
+  z-index: 1;
+  overflow: hidden;
+  width: 75px; height: 75px;
+  text-align: right;
+}
+.ribbon span {
+  font-size: 10px;
+  font-weight: bold;
+  color: #FFF;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 20px;
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  width: 100px;
+  display: block;
+  background: #79A70A;
+  background: linear-gradient(#F70505 0%, #8F0808 100%);
+  box-shadow: 0 3px 10px -5px rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 19px; left: -21px;
+}
+.ribbon span::before {
+  content: "";
+  position: absolute; left: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid #8F0808;
+  border-right: 3px solid transparent;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F0808;
+}
+.ribbon span::after {
+  content: "";
+  position: absolute; right: 0px; top: 100%;
+  z-index: -1;
+  border-left: 3px solid transparent;
+  border-right: 3px solid #8F0808;
+  border-bottom: 3px solid transparent;
+  border-top: 3px solid #8F0808;
+}
+/* Main Text Section */
+/*.feature-main {
+  background-color: #29B6F6;
+  border-radius: 0;
+  color: white;
+}*/
+
+.chat-icon {
+  width: 13rem;
+  margin-left: 6rem;
+
+}
+
+.promo-text-1 {
+  padding-top: 3rem;
+  padding-left: 4rem;
+  color:  #616161;
+}
+
+.promo-text-2 {
+  /*background-color: #F5F5F5;*/
+  /*background-color: #00B0FF;*/
+  background-color: #0091ea;
+  color: #F5F5F5;
+  padding-bottom: 10px;
+
+}
+/* Contact Form */
+.contact-form-bg {
+  /*background-image: url(../img/bg-3.jpg);
+  background-size: cover;*/
+  background-color: #0091ea;
+  height: 30vh;
+  color: white;
+}
+
+/* Pricing */
+.pricing-img-jumbotron {
+  background-image: url(../img/coin-bg.png);
+  background-position: center;
+  background-size: cover;
+}
+#pricing-box {
+  box-shadow: 0.3rem 0.3rem 1rem #BDBDBD;
+}
+
+/* Footer Section*/
+#footer {
+  background-color: #345;
+  font-size: 0.8rem;
+  color: white;
+  margin-top: 0;
+}
